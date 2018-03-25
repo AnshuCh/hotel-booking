@@ -11,7 +11,7 @@ Note: Below, I have explained how I have created this project. You just need to 
 
 3.	A new project will be created in left pane. You will get ‘pom.xml’ file too
 
-4.	Get following four dependencies from internet. Create a ‘<dependencies> </dependencies>’ tag in ‘pom.xml’ file and paste the following dependencies inside this tag:
+4.	Get following four dependencies from internet. Create an opening and closing ‘dependencies’ tag in ‘pom.xml’ file and paste the following dependencies inside this tag:
 cucumber-junit (version 1.2.2)
 cucumber-java (version 1.2.2)
 junit maven dependency (junit version 4.12)
