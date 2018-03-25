@@ -1,7 +1,7 @@
 # hotel-booking
 booking a hotel at phptravels
 
-Requirement: To run this project, you need to have JAVA installed on your system, need Eclipse which is JAVA’s IDE, need Cucumber Eclipse plugin, few dependencies and jar files which I have explained below
+Requirement: To run this project, you need to have JAVA installed on your system, need Eclipse which is JAVA’s IDE, need Cucumber Eclipse plugin, need latest Chrome or Firefox browser depending upon your selection in the test script, few dependencies and jar files which I have explained below
 
 Note: Below, I have explained how I have created this project. You just need to open the project and execute it. I have executed it with Junit
 
@@ -33,3 +33,5 @@ selenium maven dependency
 12.	Put all the hardcode sendKeys values in feature files, and use those parameters in your code instead
 
 13.	Also, create an application.properties file, and put all locators code in that, and use those parameters in your code instead. To make your script recognize the parameters of application.properties file, you need to add that ‘FileInputStream’ code in your script
+
+14. You need to install chromedriver (in order to run this project in Chrome) or geckodriver (in order to run this code in latest version of Firefox)
